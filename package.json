@@ -1,0 +1,21 @@
+{
+  "name": "node-testr",
+  "version": "0.0.1",
+  "description": "Tiny testing suite designed to be used with Node's native assert module",
+  "main": "testr.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/buzzin0609/Testr.js.git"
+  },
+  "keywords": [
+    "let",
+    "tests",
+    "=",
+    "0;"
+  ],
+  "author": "Will Busby <will0609@hotmail.com>",
+  "license": "ISC"
+}
