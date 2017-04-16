@@ -19,11 +19,14 @@ function testr(testStr, testFn) {
 }
 
 function suite(suiteName, suiteFn) {
+	tests = 0;
+	passes = 0;
 	suiteFn();
-	report();
+	report(suiteName);
 }
 
-function report() {
+function report(suiteName) {
+	console.log(`Reporting for suite: ${suiteName}`);
 	console.log(`Passed ${passes} of ${tests} tests`);
 }
 
